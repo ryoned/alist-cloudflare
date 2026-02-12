@@ -1,90 +1,146 @@
-<h1 align="center">BPB Panel</h1>
+<div align="center">
+  <a href="https://alistgo.com"><img width="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"/></a>
+  <p><em>🗂️A file list program that supports multiple storages, powered by Gin and Solidjs.</em></p>
+<div>
+  <a href="https://goreportcard.com/report/github.com/alist-org/alist/v3">
+    <img src="https://goreportcard.com/badge/github.com/alist-org/alist/v3" alt="latest version" />
+  </a>
+  <a href="https://github.com/alist-org/alist/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Xhofe/alist" alt="License" />
+  </a>
+  <a href="https://github.com/alist-org/alist/actions?query=workflow%3ABuild">
+    <img src="https://img.shields.io/github/actions/workflow/status/Xhofe/alist/build.yml?branch=main" alt="Build status" />
+  </a>
+  <a href="https://github.com/alist-org/alist/releases">
+    <img src="https://img.shields.io/github/release/Xhofe/alist" alt="latest version" />
+  </a>
+  <a title="Crowdin" target="_blank" href="https://crwd.in/alist">
+    <img src="https://badges.crowdin.net/alist/localized.svg">
+  </a>
+</div>
+<div>
+  <a href="https://github.com/alist-org/alist/discussions">
+    <img src="https://img.shields.io/github/discussions/Xhofe/alist?color=%23ED8936" alt="discussions" />
+  </a>
+  <a href="https://discord.gg/F4ymsH4xv2">
+    <img src="https://img.shields.io/discord/1018870125102895134?logo=discord" alt="discussions" />
+  </a>
+  <a href="https://github.com/alist-org/alist/releases">
+    <img src="https://img.shields.io/github/downloads/Xhofe/alist/total?color=%239F7AEA&logo=github" alt="Downloads" />
+  </a>
+  <a href="https://hub.docker.com/r/xhofe/alist">
+    <img src="https://img.shields.io/docker/pulls/xhofe/alist?color=%2348BB78&logo=docker&label=pulls" alt="Downloads" />
+  </a>
+  <a href="https://alistgo.com/guide/sponsor.html">
+    <img src="https://img.shields.io/badge/%24-sponsor-F87171.svg" alt="sponsor" />
+  </a>
+</div>
+</div>
 
-### 🌏 Readme in [Farsi](README_fa.md)
+---
 
-<p align="center">
-  <img src="docs/assets/images/panel-overview.jpg">
-</p>
-<br>
-
-## Introduction
-
-This project is aimed to provide a user panel to access FREE, SECURE and PRIVATE **VLESS**, **Trojan** and **Warp** configs, It ensures connectivity even when domains or Warp services are blocked by ISPs, offering two deployment options:
-
-- **Workers** deployment
-- **Pages** deployment
-
-🌟 If you found **BPB Panel** valuable, Your donations make all the difference 🌟
-
-### USDT (BEP20)
-
-```text
-0xbdf15d41C56f861f25b2b11C835bd45dfD5b792F
-```
+English | [中文](./README_cn.md) | [日本語](./README_ja.md) | [Contributing](./CONTRIBUTING.md) | [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md)
 
 ## Features
 
-1. **Free and Private**: No costs involved and the server is private.
-2. **Intuitive Panel:** Streamlined for effortless navigation, configuration and use.
-3. **Versatile Protocols:** Provides VLESS, Trojan and Wireguard (Warp) protocols.
-4. **Warp Pro configs:** Optimized Warp for crucial circumstances.
-5. **Fragment support:** Supports Fragment functionality for crucial network situations.
-6. **Comprehensive Routing Rules:** Bypassing Iran/China/Russia, Blocking QUIC, Porn, Ads, Malwares, Phishing and also bypassing sanctions.
-7. **Chain Proxy:** Capable of adding a chain proxy (VLESS, Trojan, Shadowsocks, socks and http) to fix IP.
-8. **Broad client compatibility:** Offers subscription links for Xray, Sing-box and Clash-Mihomo core clients.
-9. **Password-protected panel:** Provides secure and private panel with password protection.
-10. **Fully customizable:** Supports setting up clean IP-domains, Proxy IPs, DNS servers, choosing ports and protocols, Warp endpoints and more.
+- [x] Multiple storages
+    - [x] Local storage
+    - [x] [Aliyundrive](https://www.alipan.com/)
+    - [x] OneDrive / Sharepoint ([global](https://www.office.com/), [cn](https://portal.partner.microsoftonline.cn),de,us)
+    - [x] [189cloud](https://cloud.189.cn) (Personal, Family)
+    - [x] [GoogleDrive](https://drive.google.com/)
+    - [x] [123pan](https://www.123pan.com/)
+    - [x] FTP / SFTP
+    - [x] [PikPak](https://www.mypikpak.com/)
+    - [x] [S3](https://aws.amazon.com/s3/)
+    - [x] [Seafile](https://seafile.com/)
+    - [x] [UPYUN Storage Service](https://www.upyun.com/products/file-storage)
+    - [x] WebDav(Support OneDrive/SharePoint without API)
+    - [x] Teambition([China](https://www.teambition.com/ ),[International](https://us.teambition.com/ ))
+    - [x] [MediaFire](https://www.mediafire.com)
+    - [x] [Mediatrack](https://www.mediatrack.cn/)
+    - [x] [ProtonDrive](https://proton.me/drive)
+    - [x] [139yun](https://yun.139.com/) (Personal, Family, Group)
+    - [x] [YandexDisk](https://disk.yandex.com/)
+    - [x] [BaiduNetdisk](http://pan.baidu.com/)
+    - [x] [Terabox](https://www.terabox.com/main)
+    - [x] [UC](https://drive.uc.cn)
+    - [x] [Quark](https://pan.quark.cn)
+    - [x] [Thunder](https://pan.xunlei.com)
+    - [x] [Lanzou](https://www.lanzou.com/)
+    - [x] [ILanzou](https://www.ilanzou.com/)
+    - [x] [Aliyundrive share](https://www.alipan.com/)
+    - [x] [Google photo](https://photos.google.com/)
+    - [x] [Mega.nz](https://mega.nz)
+    - [x] [Baidu photo](https://photo.baidu.com/)
+    - [x] SMB
+    - [x] [115](https://115.com/)
+    - [X] Cloudreve
+    - [x] [Dropbox](https://www.dropbox.com/)
+    - [x] [FeijiPan](https://www.feijipan.com/)
+    - [x] [dogecloud](https://www.dogecloud.com/product/oss)
+    - [x] [Azure Blob Storage](https://azure.microsoft.com/products/storage/blobs)
+- [x] Easy to deploy and out-of-the-box
+- [x] File preview (PDF, markdown, code, plain text, ...)
+- [x] Image preview in gallery mode
+- [x] Video and audio preview, support lyrics and subtitles
+- [x] Office documents preview (docx, pptx, xlsx, ...)
+- [x] `README.md` preview rendering
+- [x] File permalink copy and direct file download
+- [x] Dark mode
+- [x] I18n
+- [x] Protected routes (password protection and authentication)
+- [x] WebDav (see https://alistgo.com/guide/webdav.html for details)
+- [x] [Docker Deploy](https://hub.docker.com/r/xhofe/alist)
+- [x] Cloudflare Workers proxy
+- [x] File/Folder package download
+- [x] Web upload(Can allow visitors to upload), delete, mkdir, rename, move and copy
+- [x] Offline download
+- [x] Copy files between two storage
+- [x] Multi-thread downloading acceleration for single-thread download/stream
 
-## Limitations
+## Document
 
-1. **UDP transport**: VLESS and Trojan protocols on workers do not handle **UDP** properly, so it is disabled by default (affecting features like Telegram video calls), UDP DNS is also unsupported. DoH is enabled by default for enhanced security.
-2. **Request limit**: each worker supports 100K requests per day for VLESS and Trojan, suitable for 2-3 users. You can use limitless Warp configs.
+<https://alistgo.com/>
 
-## Getting started
+## API Documentation (via Apifox):
 
-- [Installation methods](https://bia-pain-bache.github.io/BPB-Worker-Panel/installation/wizard/)
-- [Configuration](https://bia-pain-bache.github.io/BPB-Worker-Panel/configuration/)
-- [How to use](https://bia-pain-bache.github.io/BPB-Worker-Panel/usage/)
-- [FAQ](https://bia-pain-bache.github.io/BPB-Worker-Panel/faq/)
+<https://alist-public.apifox.cn/>
 
-## Supported Clients
+## Demo
 
-|       Client        |      Version      |  Fragment support  |  Warp Pro support  |
-| :-----------------: | :---------------: | :----------------: | :----------------: |
-|     **v2rayNG**     | 1.10.26 or higher | :heavy_check_mark: | :heavy_check_mark: |
-|     **MahsaNG**     |   14 or higher    | :heavy_check_mark: | :heavy_check_mark: |
-|     **v2rayN**      | 7.15.4 or higher  | :heavy_check_mark: | :heavy_check_mark: |
-|   **v2rayN-PRO**    |   1.9 or higher   | :heavy_check_mark: | :heavy_check_mark: |
-|    **Sing-box**     | 1.12.0 or higher  | :heavy_check_mark: |        :x:         |
-|    **Streisand**    | 1.6.64 or higher  | :heavy_check_mark: | :heavy_check_mark: |
-|   **Clash Meta**    |                   |        :x:         | :heavy_check_mark: |
-| **Clash Verge Rev** |                   |        :x:         | :heavy_check_mark: |
-|     **FLClash**     |                   |        :x:         | :heavy_check_mark: |
-|   **AmneziaVPN**    |                   |        :x:         | :heavy_check_mark: |
-|    **WG Tunnel**    |                   |        :x:         | :heavy_check_mark: |
+<https://al.nn.ci>
 
-## Environment variables
+## Discussion
 
-|   Variable   |               Usage                |     Mandatory      |
-| :----------: | :--------------------------------: | :----------------: |
-|   **UUID**   |             VLESS UUID             | :heavy_check_mark: |
-| **TR_PASS**  |          Trojan Password           | :heavy_check_mark: |
-| **PROXY_IP** | Proxy IP or domain (VLESS, Trojan) |        :x:         |
-|  **PREFIX**  |   NAT64 Prefixes (VLESS, Trojan)   |        :x:         |
-| **SUB_PATH** |         Subscriptions' URI         |        :x:         |
-| **FALLBACK** |  Fallback domain (VLESS, Trojan)   |        :x:         |
-| **DOH_URL**  |              Core DOH              |        :x:         |
+Please go to our [discussion forum](https://github.com/alist-org/alist/discussions) for general questions, **issues are for bug reports and feature requests only.**
+
+## Sponsor
+
+AList is an open-source software, if you happen to like this project and want me to keep going, please consider sponsoring me or providing a single donation! Thanks for all the love and support:
+https://alistgo.com/guide/sponsor.html
+
+### Special sponsors
+
+- [VidHub](https://apps.apple.com/app/apple-store/id1659622164?pt=118612019&ct=alist&mt=8) - An elegant cloud video player within the Apple ecosystem. Support for iPhone, iPad, Mac, and Apple TV.
+
+## Contributors
+
+Thanks goes to these wonderful people:
+
+[![Contributors](http://contrib.nn.ci/api?repo=alist-org/alist&repo=alist-org/alist-web&repo=alist-org/docs)](https://github.com/alist-org/alist/graphs/contributors)
+
+## License
+
+The `AList` is open-source software licensed under the AGPL-3.0 license.
+
+## Disclaimer
+- This program is a free and open source project. It is designed to share files on the network disk, which is convenient for downloading and learning Golang. Please abide by relevant laws and regulations when using it, and do not abuse it;
+- This program is implemented by calling the official sdk/interface, without destroying the official interface behavior;
+- This program only does 302 redirect/traffic forwarding, and does not intercept, store, or tamper with any user data;
+- Before using this program, you should understand and bear the corresponding risks, including but not limited to account ban, download speed limit, etc., which is none of this program's business;
+- If there is any infringement, please contact me by [email](mailto:i@nn.ci), and it will be dealt with in time.
 
 ---
 
-## Stargazers Over Time
-
-[![Stargazers Over Time](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
-
----
-
-### Special Thanks
-
-- VLESS, Trojan [Cloudflare-workers/pages proxy script](https://github.com/yonggekkk/Cloudflare-workers-pages-vless) created by [yonggekkk](https://github.com/yonggekkk)
-- CF-vless code author [3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)
-- CF preferred IP program author [badafans](https://github.com/badafans/Cloudflare-IP-SpeedTest), [XIU2](https://github.com/XIU2/CloudflareSpeedTest)
+> [@GitHub](https://github.com/alist-org) · [@TelegramGroup](https://t.me/alist_chat) · [@Discord](https://discord.gg/F4ymsH4xv2)
